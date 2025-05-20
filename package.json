@@ -1,0 +1,29 @@
+{
+  "name": "backend2_alvarez",
+  "version": "1.0.0",
+  "description": "Curso de backend Backend II en Coderhouse. Matías Álvarez",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start":"node ./index.js",
+    "dev": "node --watch ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mac25sj/backend2_alvarez.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mac25sj/backend2_alvarez/issues"
+  },
+  "homepage": "https://github.com/Mac25sj/backend2_alvarez#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.3",
+    "mongoose": "^8.15.0",
+    "morgan": "^1.10.0"
+  }
+}
