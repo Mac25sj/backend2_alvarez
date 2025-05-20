@@ -44,7 +44,7 @@ const readAll = async (req, res, next) => {
 const readByID = async (req, res, next) => {
   try {
     const { id } = req.params;
-    const one = await productsManager.readById(id);
+    const one = await usersManager.readById(id);
 
     if (one) {
       res.status(200).json({

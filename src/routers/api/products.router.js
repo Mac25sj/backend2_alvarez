@@ -14,7 +14,7 @@ const createOne = async (req, res, next) => {
       response: one,
     });
   } catch (error) {
-    console.error("Error en createOne:", error); // Mejor manejo de errores
+    console.error("Error en createOne:", error); 
     next(error);
   }
 };
@@ -36,7 +36,7 @@ const readAll = async (req, res, next) => {
       throw error;
     }
   } catch (error) {
-    console.error("Error en readAll:", error); // Mejor manejo de errores
+    console.error("Error en readAll:", error); 
     next(error);
   }
 };
